@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Contact</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a class="nav-item" href="./index.html">Home</a>
+        <a class="nav-item" href="./about.html">About</a>
+        <a class="nav-item" href="./portfolio.html">Portfolio</a>
+        <a class="nav-item active" href="./contact.html">Contact</a>
+    </nav>
+
+    <section class="main">
+        <h1>Contact</h1>
+    </section>
+
+    <section>
+        <h2>Contact data</h2>
+        <p style="text-align: center;">
+            <strong>Phone number:</strong><br />
+            <a href="tel:+436888657899">+43 688 8657899</a><br /><br />
+            <strong>Address</strong><br />
+            Waschpoint 10, 4070 Pupping</p>
+    </section>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10612.332046003283!2d14.010496797143345!3d48.32048516943967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47738f36e89e165f%3A0x36579161829d5545!2sWaschpoint%2010%2C%204070%20Waschpoint!5e0!3m2!1sde!2sat!4v1601644974915!5m2!1sde!2sat"
+        width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+    </iframe>
+    <section>
+        <h2>Contact form</h2>
+
+        <form>
+            <label class="label" for="name">Name</label>
+            <input id="name" type="text" required class="input"><br />
+
+            <label class="label" for="email">Mai</label>
+            <input id="email" type="text" required class="input"><br />
+
+            <label class="label" for="age">Age</label>
+            <input id="age" type="number" min="14" class="input"><br />
+
+            <label class="label" for="country">Country</label>
+            <select id="country" class="input">
+                <option>Austria</option>
+                <option>Germany</option>
+                <option>Other</option>
+            </select><br />
+
+            <label class="label" for="message">Message</label>
+            <textarea id="message" required class="input"></textarea><br />
+
+            <label class="label" for="newsletter">Newsletter</label>
+            <input id="newsletter" type="checkbox" class="input"> <br />
+
+            <label class="label"></label>
+            <button type="submit" class="input">Send</button>
+        </form>
+    </section>
+</body>
+
+<footer>
+    <p>This website is build by Andreas Wenzelhuemer in 2020.</p>
+</footer>
+
+</html>
